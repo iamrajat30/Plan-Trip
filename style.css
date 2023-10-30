@@ -1,0 +1,79 @@
+#title{ max-width: 100%;}
+.ghar{ margin-left: 8px;}
+
+.features{ margin-left: 15px;}
+
+.Journey{ margin-left: 10px;}
+
+.comment{ margin-left: 12px;}
+
+.paisa{ margin-left: 12px;}
+
+.text-body-emphasis {font-size: 60px;}
+
+.gradient-background {
+   
+        background: linear-gradient(
+          to right,
+          #CDF5FD,
+          #A0E9FF,
+          #89CFF3,
+          #6499E9,
+          #00A9FF
+        );
+        background-size: 400% 400%;
+        animation: body 5s infinite ease-in-out;
+}
+@keyframes body {
+    0% {
+      background-position: 0 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0 50%;
+    }
+  }
+.kya-milega{ text-align: center;
+font-weight: bold;
+font-size: 40px;}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+  background-color: rgb(211, 209, 209);
+}
+
+#testimonial { 
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.two-reviews {display: flex;
+flex-direction: row;
+gap: 20px;
+justify-content: space-around;}
+
+.reiews{
+  font-size: 30px;
+}
+.review{text-align: center;
+font-weight: bold;
+font-size: 40px;}
+
+.rang-do{background-color: #d6dfef;
+position: relative;}
+
+.two-reviews img{ height: 80px;
+  left: 320px;}
+
+.photo-hai{
+  display: flex;
+  justify-content: center;
+  height: 70px;
+  align-items: center;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  z-index: 1;
+}
